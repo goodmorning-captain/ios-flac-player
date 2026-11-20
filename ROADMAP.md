@@ -127,11 +127,11 @@ flowchart TD
 
 ---
 
-## Open items (decide while building)
+## Open Decisions
 
-1. **Skip intervals** for seek buttons (if any in Alpha): default ±15s unless you add explicit skip in matrix later.
-2. **SwiftData vs Codable + files:** SwiftData helps MVP search and v1.1 playlists; either works for Alpha list.
-3. **Deployment target** (currently iOS 26.x in the project): lower only if you care about older devices before App Store MVP.
+1. **Seek intervals:** Default to ±15 seconds if dedicated seek controls are implemented during Alpha.
+2. **Persistence:** SwiftData is preferred for its support of library queries, search, and future playlist relationships. Codable with filesystem storage remains a viable lightweight alternative for Alpha.
+3. **Minimum iOS version:** The current deployment target is iOS 26.x. Evaluate lowering the minimum supported version before public release to improve device compatibility.
 
 ---
 
