@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 20) {
+                Image(systemName: "music.note.list")
+                    .font(.system(size: 60))
+                    .foregroundColor(.accentColor)
+                
+                Text("FLAC Player")
+                    .font(.largeTitle)
+                    .bold()
+                
+                NavigationLink("Add Music", destination: FilePickerView())
+                    .buttonStyle(.borderedProminent)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

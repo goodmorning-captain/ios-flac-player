@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1C9B9F1C3039F24C0017D226 /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B9F1B3039F0CA0017D226 /* FilePickerView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1C0A083A3025B55C00E3CA2C /* FlacPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlacPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9B9F1B3039F0CA0017D226 /* FilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,10 @@
 		1C0A08313025B55C00E3CA2C = {
 			isa = PBXGroup;
 			children = (
+				1C9B9F1A3039F0600017D226 /* Utilities */,
+				1C9B9F193039F05A0017D226 /* Services */,
+				1C9B9F183039F0540017D226 /* Models */,
+				1C9B9F173039F0480017D226 /* Views */,
 				1C0A083C3025B55C00E3CA2C /* FlacPlayer */,
 				1C0A083B3025B55C00E3CA2C /* Products */,
 			);
@@ -43,6 +52,35 @@
 				1C0A083A3025B55C00E3CA2C /* FlacPlayer.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1C9B9F173039F0480017D226 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B9F1B3039F0CA0017D226 /* FilePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C9B9F183039F0540017D226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C9B9F193039F05A0017D226 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1C9B9F1A3039F0600017D226 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9B9F1C3039F24C0017D226 /* FilePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
